@@ -1,11 +1,9 @@
-# requirements.txt for Architectural Restorer Streamlit App
-
 streamlit
 pillow
 numpy
-opencv-python
-torch
-torchvision
+opencv-python-headless==4.8.1.78
+torch==2.1.0+cpu
+torchvision==0.16.0+cpu
 transformers
 diffusers
 accelerate
@@ -13,4 +11,5 @@ safetensors
 ftfy
 einops
 streamlit-drawable-canvas
-git+https://github.com/facebookresearch/segment-anything.git@main
+# git+https://github.com/facebookresearch/segment-anything.git@main  # optional, comment out
+
