@@ -11,5 +11,4 @@ safetensors
 ftfy
 einops
 streamlit-drawable-canvas
-# git+https://github.com/facebookresearch/segment-anything.git@main  # optional, comment out
-
+# git+https://github.com/facebookresearch/segment-anything.git@main # optional, comment out
