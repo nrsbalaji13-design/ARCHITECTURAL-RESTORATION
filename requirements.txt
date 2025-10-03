@@ -1,0 +1,16 @@
+# requirements.txt for Architectural Restorer Streamlit App
+
+streamlit
+pillow
+numpy
+opencv-python
+torch
+torchvision
+transformers
+diffusers
+accelerate
+safetensors
+ftfy
+einops
+streamlit-drawable-canvas
+git+https://github.com/facebookresearch/segment-anything.git@main
